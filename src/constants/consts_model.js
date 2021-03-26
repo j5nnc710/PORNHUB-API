@@ -2,6 +2,8 @@ module.exports = {
 	PROFIL_INFOS_LIST: '.infoPiece',
 	model_selectors: {
 		TITLE: 'h1',
+		MODEL_PROFILE: 'img#getAvatar',
+		STAR_PROFILE: '.thumbImage img',
 		RANK_MODEL: '.rankingInfo div:nth-child(1) .big',
 		RANK_WEEK_MODEL: '.rankingInfo div:nth-child(2) .big',
 		RANK_MONTH_MODEL: '.rankingInfo div:nth-child(3) .big',
@@ -12,6 +14,8 @@ module.exports = {
 	},
 	model_element_attributs: {
 		TITLE: 'innerHTML',
+		MODEL_PROFILE: 'src',
+		STAR_PROFILE: 'src',
 		DESCRIPTION: 'innerHTML',
 		RANK_MODEL: 'textContent',
 		RANK_WEEK_MODEL: 'textContent',
