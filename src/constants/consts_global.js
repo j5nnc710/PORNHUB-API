@@ -74,7 +74,11 @@ module.exports = {
 		VIDEO_VIEWS: js_type.NUMBER,
 		PROFILE_VIEWS: js_type.NUMBER,
 		VIDEOS_WATCHED: js_type.NUMBER,
-		JOINED: js_type.STRING
+		JOINED: js_type.STRING,
+		BIRTH_PLACE: js_type.STRING,
+		MODEL_PROFILE: js_type.STRING,
+		STAR_PROFILE: js_type.STRING,
+
 	},
 	queries: {
 		PAGE_: 'PAGE'
